@@ -1,0 +1,114 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/fer2013/*.csv
+data/fer2013/images/
+data/ravdess/*.wav
+data/ravdess/audio/
+models/facial/*.h5
+models/facial/*.keras
+models/speech/*.h5
+models/speech/*.keras
+models/fusion/*.h5
+models/fusion/*.keras
+outputs/checkpoints/*
+outputs/logs/*
+outputs/results/*
+
+# Keep directory structure
+!data/fer2013/.gitkeep
+!data/ravdess/.gitkeep
+!models/facial/.gitkeep
+!models/speech/.gitkeep
+!models/fusion/.gitkeep
+!outputs/checkpoints/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/results/.gitkeep
+
+# Large files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
